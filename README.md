@@ -8,7 +8,7 @@
 To make a classifier that is able to distinguish between a person who has Pneumonia and a normal person using the X-Rays of their Lungs. These X-Rays were taken during regular check ups of these patients.
 
 # Some details about the data
-![alt text](https://github.com/SakshiiAgrawal/Chest-X-ray-Pneumonia-Detection/blob/main/chest_xray_images.png) <br>
+![alt text](https://github.com/SakshiiAgrawal/Chest-X-ray-Pneumonia-Detection/blob/main/chest_xray_images.jpeg) <br>
 The normal chest X-ray (left panel) depicts clear lungs without any areas of abnormal opacification in the image. Bacterial pneumonia (middle) typically exhibits a focal lobar consolidation, in this case in the right upper lobe (white arrows), whereas viral pneumonia (right) manifests with a more diffuse ‘‘interstitial’’ pattern in both lungs.
 
 # Data set

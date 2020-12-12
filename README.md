@@ -1,12 +1,20 @@
-# Chest X-Ray Pneumonia Detection
-Pneumonia Detection on Chest X-Rays with Deep Learning
+# Pneumonia-Detection-Using-CNN
+[![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](https://jupyter.org/try)
+<a><img src="https://img.shields.io/badge/numpy%20-%23013243.svg?&style=for-the-badge&logo=numpy&logoColor=white" /></a>
+<a><img src="https://img.shields.io/badge/TensorFlow%20-%23FF6F00.svg?&style=for-the-badge&logo=TensorFlow&logoColor=white" /></a>
+<a><img src="https://img.shields.io/badge/Keras%20-%23D00000.svg?&style=for-the-badge&logo=Keras&logoColor=white"/></a>
+<a><img src="https://img.shields.io/badge/python%20-%2314354C.svg?&style=for-the-badge&logo=python&logoColor=white"/></a></br>
+# Objective
+To make a classifier that is able to distinguish between a person who has Pneumonia and a normal person using the X-Rays of their Lungs. These X-Rays were taken during regular check ups of these patients.
 
+# Some details about the data
+![alt text](https://github.com/SakshiiAgrawal/Chest-X-ray-Pneumonia-Detection/blob/main/chest_xray_images.png) <br>
+The normal chest X-ray (left panel) depicts clear lungs without any areas of abnormal opacification in the image. Bacterial pneumonia (middle) typically exhibits a focal lobar consolidation, in this case in the right upper lobe (white arrows), whereas viral pneumonia (right) manifests with a more diffuse ‘‘interstitial’’ pattern in both lungs.
 
-### Data description
-The dataset is organized into 2 folders (train, test) and contains subfolders for each image category (Pneumonia/Normal). There are 5,856 X-Ray images (JPEG) in 2 categories (Pneumonia/Normal). <br/>
+# Data set
 
-![Error!](https://github.com/SakshiiAgrawal/Chest-X-ray-Pneumonia-Detection/blob/master/chest_xray_images.jpeg)
+This data set was taken off Kaggle. You can use the following link to get the data. <br>
+Link - https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
 
-
-### Results
-Test Accuracy: **84.62%**
+# Results
+Our model was able to distinguish between the patients that have Pneumonia successfully. The model gave an accuracy around 96% on the training data and had a validation accuracy of 82%. It was fed an image that it had never seen previously and made the correct prediction. But, i feel there is still some room for improvement.
